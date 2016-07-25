@@ -69,7 +69,7 @@ The Presenter class doesn't need to be set if you follow the convention `<Class>
 	
 
 ```php
-protected $presenter = 'ProfilePresenter';
+protected $presenter = CustomProfilePresenter::class;
 ```
 
 Now, you can use it within your view as follows:
